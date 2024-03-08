@@ -1,0 +1,72 @@
+{
+	"id": "52e0aa2b6e74691ca8b4ce2b5d428e31",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.24",
+	"solcLongVersion": "0.8.24+commit.e11b9ed9",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"tests/test02.sol": {
+				"content": "// //SPDX-License-Identifier: MIT\n// pragma solidity ^0.8.0;\n\n// import \"../src/level02.sol\";\n\n// contract Attacker\n// {\n//     Fallout level02 = Fallout(payable(address(0xc379b76ee07Ad37f661DFDaa4002Df5E0eF22d9C)));\n\n//     function test() external\n//     {\n//         level02.Fal1out();\n//     }\n// }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.24;\"\n--> tests/test02.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.24;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "tests/test02.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"tests/test02.sol": {
+				"ast": {
+					"absolutePath": "tests/test02.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "302:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/test04.sol": "Attacker"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/level04.sol": {
+			"keccak256": "0xc388bc8065194685c404d2183160daae439b55a7b393cf328a29a4e72122d163",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d23fc33502fc4d14f5587af706845a16f6cdb5b862d819bddaa255c12467f26",
+				"dweb:/ipfs/QmVXn1ka8XMdfxg77fTLK4F23Aiy658iKBPWCQj6w1n9MU"
+			]
+		},
+		"tests/test04.sol": {
+			"keccak256": "0x0d0bec211773ba858a459cc1d81777eda82315846bcf65a7e24bad18c4d5a646",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8580be78ea290acea53beb7b4517c6e703778b0bd2f06181fe2d097f9dc43cbd",
+				"dweb:/ipfs/QmcHNwvy7dCbcDmnepnmqUL8bUmSmW2nEECvYVUoBWFgCo"
+			]
+		}
+	},
+	"version": 1
+}

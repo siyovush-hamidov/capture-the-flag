@@ -1,0 +1,72 @@
+{
+	"id": "297a86b18280648525fd1f825ae5b776",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.24",
+	"solcLongVersion": "0.8.24+commit.e11b9ed9",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"src/level02.sol": {
+				"content": "// // SPDX-License-Identifier: MIT\n// pragma solidity ^0.6.0;\n\n// import 'openzeppelin-contracts-06/math/SafeMath.sol';\n\n// contract Fallout {\n  \n//   using SafeMath for uint256;\n//   mapping (address => uint) allocations;\n//   address payable public owner;\n\n\n//   /* constructor */\n//   function Fal1out() public payable {\n//     owner = msg.sender;\n//     allocations[owner] = msg.value;\n//   }\n\n//   modifier onlyOwner {\n// \t        require(\n// \t            msg.sender == owner,\n// \t            \"caller is not the owner\"\n// \t        );\n// \t        _;\n// \t    }\n\n//   function allocate() public payable {\n//     allocations[msg.sender] = allocations[msg.sender].add(msg.value);\n//   }\n\n//   function sendAllocation(address payable allocator) public {\n//     require(allocations[allocator] > 0);\n//     allocator.transfer(allocations[allocator]);\n//   }\n\n//   function collectAllocations() public onlyOwner {\n//     msg.sender.transfer(address(this).balance);\n//   }\n\n//   function allocatorBalance(address allocator) public view returns (uint) {\n//     return allocations[allocator];\n//   }\n// }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.24;\"\n--> src/level02.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.24;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "src/level02.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"src/level02.sol": {
+				"ast": {
+					"absolutePath": "src/level02.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "1097:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
