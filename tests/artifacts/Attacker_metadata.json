@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.6.0+commit.26b70077"
 	},
 	"language": "Solidity",
 	"output": {
@@ -14,21 +14,17 @@
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test04.sol": "Attacker"
+			"tests/test05.sol": "Attacker"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -40,20 +36,25 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/level04.sol": {
-			"keccak256": "0xc388bc8065194685c404d2183160daae439b55a7b393cf328a29a4e72122d163",
-			"license": "MIT",
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
 			"urls": [
-				"bzz-raw://7d23fc33502fc4d14f5587af706845a16f6cdb5b862d819bddaa255c12467f26",
-				"dweb:/ipfs/QmVXn1ka8XMdfxg77fTLK4F23Aiy658iKBPWCQj6w1n9MU"
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
 			]
 		},
-		"tests/test04.sol": {
-			"keccak256": "0x0d0bec211773ba858a459cc1d81777eda82315846bcf65a7e24bad18c4d5a646",
-			"license": "MIT",
+		"src/level05.sol": {
+			"keccak256": "0x314c39bcc99f6103edd26df6c4e3497166d7e7641b2d90d21798c3cb855c4078",
 			"urls": [
-				"bzz-raw://8580be78ea290acea53beb7b4517c6e703778b0bd2f06181fe2d097f9dc43cbd",
-				"dweb:/ipfs/QmcHNwvy7dCbcDmnepnmqUL8bUmSmW2nEECvYVUoBWFgCo"
+				"bzz-raw://075bb18fe961deb591c09ebbb683bfe8a4006ac4777f37b050cb67c8eac039f9",
+				"dweb:/ipfs/QmbuZYvr82qRgq99CkZp96h8LeoZFaTnRHm4CfxQgNxffe"
+			]
+		},
+		"tests/test05.sol": {
+			"keccak256": "0x31b8b7213e9eff861a97eb199dd87621f2fa4a8e1930b1fabfdae198b1fbf1e5",
+			"urls": [
+				"bzz-raw://f1d6d422f9d785eeacd4b2a4d203c4cd6e47692308023337687029a525b07cc9",
+				"dweb:/ipfs/Qmed4kfH74Uy2NoKaKC3Z2wTgrLQttkKbaFH32uG7aW1B7"
 			]
 		}
 	},
