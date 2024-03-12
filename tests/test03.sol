@@ -7,7 +7,7 @@ import "hardhat/console.sol";
 
 contract Attacker
 {
-    CoinFlip level03 = CoinFlip(0x355B18FC6e47dE7e29c456362DAC1Bfbba67c681);
+    CoinFlip level03 = CoinFlip(0xed9b4fAFbe3aB64938f18C656Cd44469daDD8139);
     uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
 
     function test() external

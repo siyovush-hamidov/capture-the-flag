@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -14,17 +14,21 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test05.sol": "Attacker"
+			"tests/test06.sol": "Attacker"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -36,25 +40,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"hardhat/console.sol": {
-			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+		"src/level06.sol": {
+			"keccak256": "0xd33ca0dc369480553735f1a7bac38290162a54192a361fee3cbd3a23850d55eb",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
-				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+				"bzz-raw://ff70172996c89483bb25628544a622e07dce4413475c181c05a682cb64fe0617",
+				"dweb:/ipfs/QmPXKpK8CXDUqxV33W4mJoKvWe9igC6c2RTL39cUdPeT1z"
 			]
 		},
-		"src/level05.sol": {
-			"keccak256": "0x314c39bcc99f6103edd26df6c4e3497166d7e7641b2d90d21798c3cb855c4078",
+		"tests/test06.sol": {
+			"keccak256": "0xdb8c1963fe8385221a7516f857505de537f3bfddca74cc67360b2eefcb14f49d",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://075bb18fe961deb591c09ebbb683bfe8a4006ac4777f37b050cb67c8eac039f9",
-				"dweb:/ipfs/QmbuZYvr82qRgq99CkZp96h8LeoZFaTnRHm4CfxQgNxffe"
-			]
-		},
-		"tests/test05.sol": {
-			"keccak256": "0x31b8b7213e9eff861a97eb199dd87621f2fa4a8e1930b1fabfdae198b1fbf1e5",
-			"urls": [
-				"bzz-raw://f1d6d422f9d785eeacd4b2a4d203c4cd6e47692308023337687029a525b07cc9",
-				"dweb:/ipfs/Qmed4kfH74Uy2NoKaKC3Z2wTgrLQttkKbaFH32uG7aW1B7"
+				"bzz-raw://3bc95df85bd500c8d1135b35f629469342bb19be99e759d31b276809956129ac",
+				"dweb:/ipfs/Qmdv2XqEQNGZ3ji7HNZuisG8tFSxyUnPrMimSRzrBfGobR"
 			]
 		}
 	},

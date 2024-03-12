@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_delegateAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/level06.sol": "Delegation"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/level06.sol": {
+			"keccak256": "0xd33ca0dc369480553735f1a7bac38290162a54192a361fee3cbd3a23850d55eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff70172996c89483bb25628544a622e07dce4413475c181c05a682cb64fe0617",
+				"dweb:/ipfs/QmPXKpK8CXDUqxV33W4mJoKvWe9igC6c2RTL39cUdPeT1z"
+			]
+		}
+	},
+	"version": 1
+}
