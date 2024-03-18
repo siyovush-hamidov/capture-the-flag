@@ -18,7 +18,7 @@ git clone https://github.com/siyovush-hamidov/ethernaut-solutions.git
 
 📂 **src**: The `src` folder contains all the Ethereum smart contract challenges for each level.
 
-📂 **test**: The `test` folder includes solutions and step-by-step guides for conquering each challenge. Dive in and enhance your blockchain security skills!
+📂 **tests**: The `test` folder includes solutions and step-by-step guides for conquering each challenge. Dive in and enhance your blockchain security skills!
 
 ## Challenges
 
