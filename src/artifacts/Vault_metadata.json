@@ -8,13 +8,39 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Vault",
-						"name": "_level08",
-						"type": "address"
+						"internalType": "bytes32",
+						"name": "_password",
+						"type": "bytes32"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_password",
+						"type": "bytes32"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test08.sol": "Attacker"
+			"src/level08.sol": "Vault"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -44,28 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"hardhat/console.sol": {
-			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
-				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
-			]
-		},
 		"src/level08.sol": {
 			"keccak256": "0x2a14a45700ff71265450acabc27c4bf3d0ff3ddd25b40df606df517f4a032208",
 			"license": "MIT",
 			"urls": [
 				"bzz-raw://c9e98a4548d7229cda461352c3e4ea7c53cd2c2652388298a9418921fcd54bc4",
 				"dweb:/ipfs/QmScMCzywmdpQ164y6Luy9kcBq2imZ9fbdWQJiNfwL9qxp"
-			]
-		},
-		"tests/test08.sol": {
-			"keccak256": "0xfb73f0f4ce6632345a11921a35bebf6127c5f3eb200d315f71ea931dadcd56d0",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://ac9fd1c0fd9626c250cd0b85e83dbdb0fad8324375bb4f8bf77ddea8c4302fa1",
-				"dweb:/ipfs/QmQcpiBqe15jRfwmz84wNnE1eh4PnepUfhyDKrp8YCGR2P"
 			]
 		}
 	},
