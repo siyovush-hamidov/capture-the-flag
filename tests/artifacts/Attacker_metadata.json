@@ -13,15 +13,8 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -35,10 +28,6 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -77,11 +66,11 @@
 			]
 		},
 		"tests/test09.sol": {
-			"keccak256": "0x9d809695cddf27c23a0ef2928574d7d6b27e6c9e84dc410725db0737459c207a",
+			"keccak256": "0xdc146842e6b4d956067d14501dc233e5c40e1262f42c0e140f7d82b9dba90033",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6b2895fb6ab9c525ea0978bfb59c93661cab8087d269fd2fe615f1f4c54c700f",
-				"dweb:/ipfs/QmPwReYZ3rN7E5gNcCC5fSriBvDucPzsPN592mhCy78KBq"
+				"bzz-raw://0e2c5de017fd60fe5e1b4e09833a9c3e49421787c122ef68af34b29e0b26ab89",
+				"dweb:/ipfs/QmRFBafgdNrJdejjKdgGTu1xS2yNetFQQLpHjurtM7R9gD"
 			]
 		}
 	},
