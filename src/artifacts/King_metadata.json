@@ -6,26 +6,39 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_level09",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"inputs": [],
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "_king",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "prize",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -33,7 +46,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -54,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test09.sol": "Attacker"
+			"src/level09.sol": "King"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -74,14 +87,6 @@
 			"urls": [
 				"bzz-raw://3313fb8d38b66e312e44e8b61620e27b1bdc95d318cbcd6cae2b2700625be62e",
 				"dweb:/ipfs/QmavgprHaN1bmz4qpaeDJB515dAB9tf8aneVgakjX2AMXp"
-			]
-		},
-		"tests/test09.sol": {
-			"keccak256": "0x9d809695cddf27c23a0ef2928574d7d6b27e6c9e84dc410725db0737459c207a",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://6b2895fb6ab9c525ea0978bfb59c93661cab8087d269fd2fe615f1f4c54c700f",
-				"dweb:/ipfs/QmPwReYZ3rN7E5gNcCC5fSriBvDucPzsPN592mhCy78KBq"
 			]
 		}
 	},
