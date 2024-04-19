@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "isLastFloor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/level11.sol": "Building"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/level11.sol": {
+			"keccak256": "0x7495942ce1dd62cdac5beaba64253976d34a17ec9770b298266a35367fee1528",
+			"urls": [
+				"bzz-raw://b1ad246aa3a2354d5147f740b4b761e2ca1e9277ce70bc4bb4b7d0125fa974f5",
+				"dweb:/ipfs/QmeSJJqcwMdRhWLURHUs8ChNRpDtpJYxkM6jEodnMqkbqS"
+			]
+		}
+	},
+	"version": 1
+}

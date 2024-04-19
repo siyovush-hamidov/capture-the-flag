@@ -8,23 +8,49 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_level12",
-						"type": "address"
+						"internalType": "bytes32[3]",
+						"name": "_data",
+						"type": "bytes32[3]"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "ID",
+				"outputs": [
 					{
-						"internalType": "bytes32",
-						"name": "theKey",
-						"type": "bytes32"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "attack",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes16",
+						"name": "_key",
+						"type": "bytes16"
+					}
+				],
+				"name": "unlock",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -43,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test12.sol": "Attacker"
+			"src/level12.sol": "Privacy"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -63,14 +89,6 @@
 			"urls": [
 				"bzz-raw://07de7cb217e3adeeadb925b4595c871589d144c32f04d164e00c76be7b548aae",
 				"dweb:/ipfs/QmXvVAbRgzdPQpwpVXyM9Kd4uonrEpsPLw18swu8pCMBKt"
-			]
-		},
-		"tests/test12.sol": {
-			"keccak256": "0x77f6130c5083902edbd72ca19712f5a937d9ddb487673d8a2e8123e90af68ff0",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://0a7f889dd516a7b21923d05d64488dcc5408c0cd5430e4f01986b917ad455e52",
-				"dweb:/ipfs/QmRnCTqypmc32iN4rLZdev8bymfQhx2AXLcJg5aa7QzWWm"
 			]
 		}
 	},
