@@ -9,18 +9,31 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "creator_address",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "send_to",
+						"name": "_level21",
 						"type": "address"
 					}
 				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "exploit",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -37,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test17.sol": "Attacker"
+			"tests/test21.sol": "Attacker"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,20 +64,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/level17.sol": {
-			"keccak256": "0x5c19c5301f3baee966f0cc8a8de247246d6e6cbc38d95d57503eb1919ec26d8c",
+		"src/level21.sol": {
+			"keccak256": "0x7a0be3789f5bbf1a1350cec98363e5d3cc3d5f1c56744baf4861b7610367daed",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b6eaca166230380eb638702bd90851cdb0bb5543a6b20be02dd0d92b91ce4f97",
-				"dweb:/ipfs/QmUZYuhmXq5zF3LK2aiqJSMgU8d5tU2D7yaSaZdQTZtUhV"
+				"bzz-raw://967e0252847c372e3e22aefe0794ea3e941115fa4c793b4901483e62e5c2c4fe",
+				"dweb:/ipfs/QmXfDWbqUB4hWUKjKvTAGUXSBFAb1Mov7gAXvmYgzbRpQS"
 			]
 		},
-		"tests/test17.sol": {
-			"keccak256": "0x4d8756631d1dbf718da7a08a16dd065d9282b2455506743b80e04447ccc158c2",
+		"tests/test21.sol": {
+			"keccak256": "0x308d519e758fd430e1aeb5be946746dfaa36c0d0f3bad13f3933ae7958206e66",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://458de320b5b351cd498fa8a8b2b61e5c6fd83a8ca14d1c79b0558613c661b3d8",
-				"dweb:/ipfs/QmPMbPSVZ6CsLdDS8RgNLwVCF9G16FAPbStSeaZvwJWSdZ"
+				"bzz-raw://33f36b02a05bc6f003f96d59754bfd525fdf30194f55c5ef6893d8a3b39e7083",
+				"dweb:/ipfs/QmYok5rNyP9i1qGmTF2KfquTma5JU7kt1ijmWjZ92ENfB8"
 			]
 		}
 	},
