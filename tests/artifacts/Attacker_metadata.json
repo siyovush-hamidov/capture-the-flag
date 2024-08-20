@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_level21",
+						"name": "_level06",
 						"type": "address"
 					}
 				],
@@ -21,19 +21,6 @@
 				"name": "exploit",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "price",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -50,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test21.sol": "Attacker"
+			"tests/test06.sol": "Attacker"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -64,20 +51,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/level21.sol": {
-			"keccak256": "0x7a0be3789f5bbf1a1350cec98363e5d3cc3d5f1c56744baf4861b7610367daed",
+		"src/level06.sol": {
+			"keccak256": "0xd33ca0dc369480553735f1a7bac38290162a54192a361fee3cbd3a23850d55eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://967e0252847c372e3e22aefe0794ea3e941115fa4c793b4901483e62e5c2c4fe",
-				"dweb:/ipfs/QmXfDWbqUB4hWUKjKvTAGUXSBFAb1Mov7gAXvmYgzbRpQS"
+				"bzz-raw://ff70172996c89483bb25628544a622e07dce4413475c181c05a682cb64fe0617",
+				"dweb:/ipfs/QmPXKpK8CXDUqxV33W4mJoKvWe9igC6c2RTL39cUdPeT1z"
 			]
 		},
-		"tests/test21.sol": {
-			"keccak256": "0x308d519e758fd430e1aeb5be946746dfaa36c0d0f3bad13f3933ae7958206e66",
+		"tests/test06.sol": {
+			"keccak256": "0x887f27fbcc703ebf1a104047dbb347834abf13ec12c7d7298ff20a330d3a26d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://33f36b02a05bc6f003f96d59754bfd525fdf30194f55c5ef6893d8a3b39e7083",
-				"dweb:/ipfs/QmYok5rNyP9i1qGmTF2KfquTma5JU7kt1ijmWjZ92ENfB8"
+				"bzz-raw://1109058583ff41d70a419c0f51b3749e86835ecc2f04064112ccfdc342c4fee9",
+				"dweb:/ipfs/QmQCknMrJXyRnxAyRDyzuttGwnsBmJXZ3VoJ3vbn5R5uqh"
 			]
 		}
 	},
