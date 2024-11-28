@@ -1,14 +1,14 @@
-//SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 import "../src/level02.sol";
 
 contract Attacker
 {
-    Fallout level02 = Fallout(payable(address(0xc379b76ee07Ad37f661DFDaa4002Df5E0eF22d9C)));
+    Fallout level;
 
-    function test() external
+    constructor(address _level)
     {
-        level02.Fal1out();
+        level = Fallout(_level);
     }
 }

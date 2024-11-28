@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -13,7 +13,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
@@ -22,10 +22,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -41,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/test01.sol": "Attacker"
+			"tests/test03.sol": "Attacker"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -55,19 +51,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/level01.sol": {
-			"keccak256": "0x3d14adcf5d7e63439ec5f1f9fb43c4e791be2630f1caafb5a0dac8a274d4a369",
+		"src/level03.sol": {
+			"keccak256": "0xb95bc60e86408dd64b7966baa45eb5ef0590ec2c19e5975041c52077a4f87bcd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b87944a47b09f254c0ad3773537ad34a063179c35aa700aff062b339f94c2092",
-				"dweb:/ipfs/QmWU9T2dzs5KS6mbHX5tCvagDCUQ1thyPdU17eVBPXuL6T"
+				"bzz-raw://087f97fd09c887feeee644218608b55eed2ece4776a3cdf6fcc369e69819421e",
+				"dweb:/ipfs/QmZKXyRfvRUud7RoWu64WgPhnPA3UrufZsRdLJ5XDYgRr2"
 			]
 		},
-		"tests/test01.sol": {
-			"keccak256": "0x9d7c1290dfc4b3523c70ffd57028c5faac7696a72b8664cc1046162391a77586",
+		"tests/test03.sol": {
+			"keccak256": "0x19c10a8e1f905e4c5f31c05d6ad7de0854e1d6b557a05add867f2587f5c3b39e",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://3a690afcdcca97c176ad63ebeafccf04147d792e9127cdee031f7dd9ed9d9679",
-				"dweb:/ipfs/QmZaaXWoVVxmGjNinComREKMJWZsugfRBvvdtESxbyvs2g"
+				"bzz-raw://51240fdaff853345a9cccecf88af13badcdd4bb894922f4f7f34e450f53ea010",
+				"dweb:/ipfs/QmPM1mg9K4jd67rspCHEsaUY2GH4AKGJcNUjfYV8yWaEcu"
 			]
 		}
 	},

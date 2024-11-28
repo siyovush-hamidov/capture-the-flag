@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_level",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "exploit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/test04.sol": "A"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/level04.sol": {
+			"keccak256": "0xc388bc8065194685c404d2183160daae439b55a7b393cf328a29a4e72122d163",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d23fc33502fc4d14f5587af706845a16f6cdb5b862d819bddaa255c12467f26",
+				"dweb:/ipfs/QmVXn1ka8XMdfxg77fTLK4F23Aiy658iKBPWCQj6w1n9MU"
+			]
+		},
+		"tests/test04.sol": {
+			"keccak256": "0xe1f7ab2922077f8d66c4297beb3e59bdd12975e2f5200d321a8b5ae5a3faf70e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1f52449dd970f6d4ad2d32b240faf20dcd9517b45941a693da1a4aa6769340c",
+				"dweb:/ipfs/QmYgCbyFLJgLybAY2QoAGxvFNNMktxpsAhaWoFwkprPThE"
+			]
+		}
+	},
+	"version": 1
+}

