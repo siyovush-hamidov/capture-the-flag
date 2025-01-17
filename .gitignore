@@ -1,7 +1,8 @@
 # Ignore build artifacts
 /build/
 /artifacts/
-
+.deps/
+.states/
 # Truffle / Hardhat specific directories
 /cache/
 /coverage/
